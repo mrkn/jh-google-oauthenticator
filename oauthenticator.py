@@ -15,7 +15,7 @@ from tornado.auth       import GoogleOAuth2Mixin
 from tornado.escape     import to_unicode
 from tornado.web        import HTTPError
 
-from IPython.utils.traitlets import Unicode
+from traitlets import Unicode
 
 from jupyterhub.handlers import BaseHandler
 from jupyterhub.auth     import Authenticator, LocalAuthenticator
